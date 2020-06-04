@@ -1,0 +1,37 @@
+<!-- To publish observable and use the id here -->
+<!-- https://observablehq.com/@jashkenas/handy-embed-code-generator -->
+
+<div id="observablehq-d3f90361">
+    <div class="observablehq-chord_container"></div>
+    <div class="observablehq-line_container"></div>
+    <div class="observablehq-viewof-rollDice"></div>
+    <div class="observablehq-rollDice"></div>
+    <div class="observablehq-viewof-motion_damping"></div>
+    <div class="observablehq-motion_damping"></div>
+    <div class="observablehq-viewof-motion_stiffness"></div>
+    <div class="observablehq-motion_stiffness"></div>
+    <div class="observablehq-heatmap_container"></div>
+    <div class="observablehq-calendar_container"></div>
+    <div class="observablehq-main"></div>
+    <div class="observablehq-ResponsiveLine"></div>
+    <div class="observablehq-ResponsiveChord"></div>
+  </div>
+  <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import define from "https://api.observablehq.com/@howt51/nivo-react-components.js?v=3";
+    (new Runtime).module(define, name => {
+      if (name === "chord_container") return Inspector.into("#observablehq-d3f90361 .observablehq-chord_container")();
+      if (name === "line_container") return Inspector.into("#observablehq-d3f90361 .observablehq-line_container")();
+      if (name === "viewof rollDice") return Inspector.into("#observablehq-d3f90361 .observablehq-viewof-rollDice")();
+      if (name === "rollDice") return Inspector.into("#observablehq-d3f90361 .observablehq-rollDice")();
+      if (name === "viewof motion_damping") return Inspector.into("#observablehq-d3f90361 .observablehq-viewof-motion_damping")();
+      if (name === "motion_damping") return Inspector.into("#observablehq-d3f90361 .observablehq-motion_damping")();
+      if (name === "viewof motion_stiffness") return Inspector.into("#observablehq-d3f90361 .observablehq-viewof-motion_stiffness")();
+      if (name === "motion_stiffness") return Inspector.into("#observablehq-d3f90361 .observablehq-motion_stiffness")();
+      if (name === "heatmap_container") return Inspector.into("#observablehq-d3f90361 .observablehq-heatmap_container")();
+      if (name === "calendar_container") return Inspector.into("#observablehq-d3f90361 .observablehq-calendar_container")();
+      if (name === "main") return Inspector.into("#observablehq-d3f90361 .observablehq-main")();
+      if (name === "ResponsiveLine") return Inspector.into("#observablehq-d3f90361 .observablehq-ResponsiveLine")();
+      if (name === "ResponsiveChord") return Inspector.into("#observablehq-d3f90361 .observablehq-ResponsiveChord")();
+    });
+  </script>
