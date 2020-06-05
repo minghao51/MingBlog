@@ -1,5 +1,5 @@
 ---
-title: "It depends: bias and prespective"
+title: "It depends: bias and perspective"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 description: "To highlight the paradox and bias of data"
 ---
