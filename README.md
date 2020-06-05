@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c200784e-a794-414b-b52c-bbac444d0eab/deploy-status)](https://app.netlify.com/sites/ming/deploys)
 
-Where random thoughts, prespectives are recorded.
+Where random thoughts, perspectives are recorded.
 
 The website is currently deployed at [link](https://ming.netlify.app/)
 
